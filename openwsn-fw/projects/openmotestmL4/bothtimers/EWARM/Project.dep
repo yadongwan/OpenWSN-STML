@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4070078619</fileChecksum>
+  <configuration>
+    <name>STM32L476RG_NUCLEO</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_fmc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_iwdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_exti.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\configure\stm32_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\common\01bsp_radiotimer\01bsp_radiotimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\configure\stm32l4xx_it.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_crc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_bus.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_comp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_dma2d.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_exti.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\configure\stm32l4xx_it.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\configure\system_stm32l4xx.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\ewarm\startup_stm32l476xx.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_comp.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_crs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_dac.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_crs.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_dma.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_cortex.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_crc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_dma2d.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_dmamux.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_dac.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_dma.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\opentimers.pbi</file>
+      <file>$PROJ_DIR$\..\Inc\main.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_it.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_utils.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\system_stm32l4xx.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_dac.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\uart.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_i2c.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\nvic.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_swpmi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\CMSIS\Include\core_cmSimd.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_dma.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_lpuart.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_tim.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_rcc.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\debugpins.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_utils.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\system_stm32l4xx.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_crc.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\leds.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\CMSIS\Include\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\bsp_timer.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\gpio.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_dma2d.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_crs.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_dac.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\List\Project.map</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_rcc.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_usb.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_comp.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\Legacy\stm32_hal_legacy.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\leds.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\rcc.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\opentimers.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\startup_stm32l476xx.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_swpmi.o</file>
+      <file>$PROJ_DIR$\stm32l476xx_flash.icf</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_dma.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\system_stm32l4xx.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_adc.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_lpuart.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_crs.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\leds.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_gpio.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_exti.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_rtc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\radio.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\01bsp_bsp_timer.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_opamp.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\rcc.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_dma.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_rng.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_tim.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_swpmi.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_opamp.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_spi.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_crc.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_adc.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_rng.pbi</file>
+      <file>$PROJ_DIR$\..\Inc\stm32_assert.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\board.o</file>
+      <file>$PROJ_DIR$\..\..\..\common\01bsp_leds\01bsp_leds.c</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_rcc.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\gpio.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\opentimers.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\toolchain_defs.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\01bsp_leds.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_dma2d.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\rcc.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_lptim.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\rtc_timer.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_opamp.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\board.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\nvic.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_usart.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\01bsp_leds.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_exti.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_rtc.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\01bsp_leds.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_lptim.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\nvic.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_usart.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_dac.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_crs.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_adc.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_tim.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\rcc.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_exti.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_pwr.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_spi.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_comp.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\nvic.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\leds.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_pwr.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\spi.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\radiotimer.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\01bsp_radiotimer.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\radiotimer.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\01bsp_radiotimer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\common\01bsp_bsp_timer\01bsp_bsp_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\CMSIS\Include\core_cmFunc.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_utils.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\debugpins.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_it.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\01bsp_bsp_timer.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_comp.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_i2c.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\bsp_timer.o</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\debugpins.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_lpuart.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_gpio.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_it.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Exe\Project.out</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\bsp_timer.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_pwr.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_rtc.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_i2c.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_spi.o</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\Project.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\inc\opendefs.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_dma2d.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_lptim.o</file>
+      <file>$PROJ_DIR$\..\readme.txt</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\rcc.c</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_crc.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\board.__cstat.et</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_rng.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\drivers\common\opentimers.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\board.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\board_info.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\bsp_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\radiotimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\drivers\common\opentimers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\radiotimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_hal_def.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\board.c</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_usart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\leds.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\nvic.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\debugpins.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_tim.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_tim.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_usart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_usart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_utils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_utils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_lptim.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_lptim.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_pwr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_rcc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_rng.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_rtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_lib.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_opamp.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_rng.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_opamp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_pwr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_swpmi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_lpuart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_rcc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_lpuart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_swpmi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\inc\stm32l4xx_ll_system.h</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\01bsp_bothtimers.pbi</file>
+      <file>$PROJ_DIR$\STM32L476RG_NUCLEO\Obj\01bsp_bothtimers.o</file>
+      <file>$PROJ_DIR$\..\..\..\common\01bsp_bothtimers\01bsp_bothtimers.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126 62 54 46 10 155 7 48 59 149 154 184 164 99 43 87 31 51 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 46 10 126 155 15 54 48 59 149 154 184 164 99 43 87 31 51 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 166 66</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\common\01bsp_radiotimer\01bsp_radiotimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 62 154 87 155 184 31 51 67 32 121 118 186 54 48 59 99 164 167 149 43 126 110 52 141 190</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 154 141 62 48 59 164 118 51 110 67 46 43 52 190 87 31 155 184 32 121 186 126 99 167 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_exti.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126 54 99 62 87 51 167 4 48 59 46 43 31 154 164 149 155 184</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\configure\stm32l4xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 165</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 19 10 11 25 9 21 29 24 12 28 4 0 191 71 116 32 92 15 7 2 205 220 214 215 208 209 210 198 222 223 200 202 69 204 5 8 34 141 60 118 186 67 121 110 190 143 89 115 39 52 113</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92 15 204 39 9 209 126 54 46 190 19 12 220 223 99 51 154 34 118 141 89 113 11 29 4 2 215 198 202 62 186 8 60 143 115 52 10 25 21 24 28 0 7 205 214 208 210 222 200 69 104 48 59 43 164 71 211 149 87 31 155 184 167 191 116 32 110 67 121</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\configure\system_stm32l4xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126 99 62 87 51 167 48 59 46 43 31 154 164 54 149 155 184</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\ewarm\startup_stm32l476xx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 46 10 48 59 155 19 54 126 149 154 184 164 99 43 87 31 51 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_comp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 158</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 48 59 46 99 62 87 51 167 11 126 43 31 154 164 149 155 184</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_dac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 59 62 46 10 155 29 54 126 149 154 184 164 99 43 87 31 51 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_crs.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 62 54 10 48 59 155 21 126 149 154 184 164 99 43 87 31 51 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_crc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 62 10 54 48 59 155 9 126 149 154 184 164 99 43 87 31 51 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_dma2d.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 176</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126 62 46 10 155 12 54 48 59 149 154 184 164 99 43 87 31 51 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 46 10 126 155 24 54 48 59 149 154 184 164 99 43 87 31 51 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\common\01bsp_leds\01bsp_leds.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 125</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 62 154 87 155 184 31 51 116 32 92 118 186 54 48 59 99 164 167 149 43 126 67 121 110 141</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 32 62 164 118 154 51 46 126 99 116 141 87 31 155 184 92 186 54 67 48 59 43 121 149 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\common\01bsp_bsp_timer\01bsp_bsp_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 62 154 87 155 184 31 51 67 32 121 118 186 54 48 59 99 164 167 149 43 126 110 52 141 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 51 154 110 141 62 67 149 164 118 54 48 59 52 60 87 31 155 184 32 121 186 126 99 43 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\STM32L476RG_NUCLEO\Exe\Project.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 77 225 105 160 152 108 58 119 109 146 73 75 153 132 158 101 64 65 79 112 123 85 159 177 82 117 136 50 182 88 172 76 49 120 55 56 150 156 78 173</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\rcc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 19 10 11 25 9 21 29 24 12 28 4 0 191 71 116 32 92 15 7 2 205 220 214 215 208 209 210 198 222 223 200 202 69 204 104 113</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215 11 54 4 202 43 191 29 2 198 167 62 10 19 9 12 15 220 209 223 204 126 99 87 155 113 208 25 21 24 28 0 7 205 214 210 222 200 69 104 48 59 46 149 31 184 164 116 32 154 211 51 71 92</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\drivers\common\opentimers.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 189 175 46 62 154 87 155 184 31 51 110 186 54 48 59 99 164 167 149 43 126 67 32 121 60 118 141</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154 167 141 110 62 51 46 126 60 175 186 87 31 155 184 54 67 48 59 149 164 118 189 99 43 32 121</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\bsp_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 19 10 11 25 9 21 29 24 12 28 4 0 191 71 116 32 92 15 7 2 205 220 214 215 208 209 210 198 222 223 200 202 69 204 104 67 121 60 118 186 110 113 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 223 51 154 12 99 92 19 220 54 113 9 15 209 204 126 121 60 11 29 4 2 215 198 202 62 46 67 118 140 10 25 21 24 28 0 7 205 214 208 210 222 200 69 104 48 59 43 164 71 191 32 110 211 149 87 31 155 184 167 116 186</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\radiotimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 62 154 87 155 184 31 51 211 54 48 59 99 164 167 149 43 126 19 10 11 25 9 21 29 24 12 28 4 0 191 71 116 32 92 15 7 2 205 220 214 215 208 209 210 198 222 223 200 202 69 204 104 141 190 118 186 67 121 110 113 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 0 62 69 118 31 184 25 208 59 149 24 205 222 48 164 116 32 141 140 87 155 10 21 28 7 214 210 200 104 46 121 211 190 113 154 51 19 11 9 29 12 4 15 2 220 215 209 198 223 202 204 126 167 191 110 67 99 43 71 92 186</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 19 10 11 25 9 21 29 24 12 28 4 0 191 71 116 32 92 15 7 2 205 220 214 215 208 209 210 198 222 223 200 202 69 204 104 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 198 54 2 191 11 4 215 202 167 62 19 9 12 15 220 209 223 204 126 149 87 155 139 10 25 21 24 28 0 7 205 214 208 210 222 200 69 104 48 59 46 31 184 164 116 32 154 211 99 43 51 71 92</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\board.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 181</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 19 10 11 25 9 21 29 24 12 28 4 0 191 71 116 32 92 15 7 2 205 220 214 215 208 209 210 198 222 223 200 202 69 204 104 118 186 67 121 110 141 39 143 60 89 190 113 140 52 189 175 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 191 198 54 29 113 2 143 139 11 4 215 202 167 62 46 110 141 89 52 19 9 12 15 220 209 223 204 126 149 87 155 154 190 118 39 60 140 189 10 25 21 24 28 0 7 205 214 208 210 222 200 69 104 48 59 31 184 164 116 32 211 99 43 51 71 92 186 67 121 175</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\leds.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 211 19 10 11 25 9 21 29 24 12 28 4 0 191 71 116 32 92 15 7 2 205 220 214 215 208 209 210 198 222 223 200 202 69 204 104 141</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 62 59 164 208 54 48 0 69 92 141 46 31 184 24 205 222 191 211 126 149 87 155 167 10 21 28 7 214 210 200 104 71 154 99 43 51 19 11 9 29 12 4 15 2 220 215 209 198 223 202 204 116 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\nvic.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 19 10 11 25 9 21 29 24 12 28 4 0 191 71 116 32 92 15 7 2 205 220 214 215 208 209 210 198 222 223 200 202 69 204 104 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 7 54 21 210 46 191 10 28 214 200 149 167 62 25 24 0 205 208 222 69 48 59 87 155 140 19 11 9 29 12 4 15 2 220 215 209 198 223 202 204 126 99 43 31 184 164 116 32 154 211 51 71 92</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\debugpins.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 152</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 19 10 11 25 9 21 29 24 12 28 4 0 191 71 116 32 92 15 7 2 205 220 214 215 208 209 210 198 222 223 200 202 69 204 104 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 200 28 54 10 214 191 21 7 210 104 46 167 62 25 24 0 205 208 222 69 48 59 149 87 155 52 19 11 9 29 12 4 15 2 220 215 209 198 223 202 204 126 31 184 164 116 32 154 211 99 43 51 71 92</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_tim.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 200 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 59 43 164 10 46 200 54 126 99 154 62 51 149 87 31 155 184 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 194</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 202 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 208 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 54 164 43 208 126 154 202 10 48 59 46 99 62 87 51 167 149 155 184</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_utils.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 151</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 204 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 208 223 215</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 48 59 62 164 223 46 149 154 184 208 215 126 155 204 99 43 87 31 51 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_lptim.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 177</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 205 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 59 62 46 10 155 205 54 126 149 154 184 164 99 43 87 31 51 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 215 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 46 10 48 59 155 215 54 126 149 154 184 164 99 43 87 31 51 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_opamp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 214 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 59 46 99 62 87 51 167 214 54 126 43 31 154 164 149 155 184</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_rng.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 209 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 62 10 48 59 155 209 54 126 149 154 184 164 99 43 87 31 51 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 172</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 198 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 46 10 54 126 155 198 48 59 149 154 184 164 99 43 87 31 51 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_swpmi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 222 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 126 62 46 10 155 222 48 59 149 154 184 164 99 43 87 31 51 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_lpuart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 220 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 208 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 126 54 164 43 208 154 220 10 48 59 46 99 62 87 51 167 149 155 184</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 208 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 59 46 99 62 87 51 167 208 54 126 43 31 154 164 149 155 184</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bsp\boards\openmotestmL4\library\src\stm32l4xx_ll_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 210 54 48 59 46 62 154 87 155 184 31 51 99 164 167 149 43 126 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 126 25 99 62 87 51 167 210 48 59 46 43 31 154 164 149 155 184</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\common\01bsp_bothtimers\01bsp_bothtimers.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 225</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 224</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 62 154 87 155 184 31 51 67 32 121 118 186 54 48 59 99 164 167 149 43 126 110 52 141 60 190</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154 62 67 46 141 51 110 118 190 54 48 59 52 60 87 31 155 184 32 121 186 126 149 164 99 43 167</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

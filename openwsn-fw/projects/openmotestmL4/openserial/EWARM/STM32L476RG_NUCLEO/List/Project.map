@@ -1,0 +1,713 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.3.10732/W32 for ARM                18/Feb/2019  21:57:55
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Exe\Project.out
+#    Map file     =  
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\List\Project.map
+#    Command line =  
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\02drv_openserial.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\board.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\bsp_timer.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\debugpins.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\eui64.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\gpio.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\leds.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\nvic.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\openhdlc.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\openserial.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\opentimers.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\radio.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\radiotimer.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\rcc.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\spi.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\startup_stm32l476xx.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_it.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_adc.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_comp.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_crc.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_crs.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_dac.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_dma.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_dma2d.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_exti.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_gpio.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_i2c.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_lptim.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_lpuart.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_opamp.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_pwr.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_rcc.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_rng.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_rtc.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_spi.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_swpmi.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_tim.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_usart.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\stm32l4xx_ll_utils.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\system_stm32l4xx.o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj\uart.o
+#        -o
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Exe\Project.out
+#        --map
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\List\Project.map
+#        --config
+#        E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\stm32l476xx_flash.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x080fffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20017fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x188
+  .intvec            ro code  0x08000000   0x188  startup_stm32l476xx.o [1]
+                            - 0x08000188   0x188
+
+"P1":                                     0x2e8c
+  .text              ro code  0x08000188   0x794  openserial.o [1]
+  .text              ro code  0x0800091c    0x66  ABImemset.o [5]
+  .text              ro code  0x08000984    0x20  openhdlc.o [1]
+  .text              ro code  0x080009a4   0x358  uart.o [1]
+  .text              ro code  0x08000cfc    0xb2  02drv_openserial.o [1]
+  .text              ro code  0x08000db0    0x6c  leds.o [1]
+  .text              ro code  0x08000e1c   0x124  stm32l4xx_ll_usart.o [1]
+  .text              ro code  0x08000f40   0x10e  nvic.o [1]
+  .text              ro code  0x08001050   0x15e  board.o [1]
+  .text              ro code  0x080011b0   0x154  bsp_timer.o [1]
+  .text              ro code  0x08001304   0x1a2  stm32l4xx_ll_gpio.o [1]
+  .text              ro code  0x080014a8   0x494  stm32l4xx_ll_rcc.o [1]
+  .text              ro code  0x0800193c   0x130  rcc.o [1]
+  .text              ro code  0x08001a6c    0x70  gpio.o [1]
+  .text              ro code  0x08001adc   0x21a  stm32l4xx_ll_exti.o [1]
+  .text              ro code  0x08001cf8   0x37e  spi.o [1]
+  .text              ro code  0x08002078   0x11c  radio.o [1]
+  .text              ro code  0x08002194   0x10c  radiotimer.o [1]
+  .text              ro code  0x080022a0   0x11c  debugpins.o [1]
+  .text              ro code  0x080023bc   0x508  stm32l4xx_ll_tim.o [1]
+  .text              ro code  0x080028c4    0x44  stm32l4xx_ll_utils.o [1]
+  .text              ro code  0x08002908    0x84  stm32l4xx_ll_spi.o [1]
+  .rodata            const    0x0800298c   0x200  openhdlc.o [1]
+  .text              ro code  0x08002b8c   0x168  stm32l4xx_it.o [1]
+  .text              ro code  0x08002cf4    0x6c  system_stm32l4xx.o [1]
+  .text              ro code  0x08002d60    0x40  zero_init3.o [5]
+  .rodata            const    0x08002da0    0x30  system_stm32l4xx.o [1]
+  .text              ro code  0x08002dd0    0x2c  copy_init3.o [5]
+  .text              ro code  0x08002dfc    0x28  data_init.o [5]
+  .text              ro code  0x08002e24    0x22  fpinit_M.o [4]
+  .iar.init_table    const    0x08002e48    0x24  - Linker created -
+  .text              ro code  0x08002e6c    0x1a  cmain.o [5]
+  .text              ro code  0x08002e86     0x4  low_level_init.o [3]
+  .text              ro code  0x08002e8a     0x4  exit.o [3]
+  .text              ro code  0x08002e90     0xa  cexit.o [5]
+  .text              ro code  0x08002e9c    0x14  exit.o [6]
+  .rodata            const    0x08002eb0    0x10  system_stm32l4xx.o [1]
+  .text              ro code  0x08002ec0    0x10  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002ed0     0xc  cstartup_M.o [5]
+  .rodata            const    0x08002edc     0x8  system_stm32l4xx.o [1]
+  .text              ro code  0x08002ee4     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002ee8     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002eec     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002ef0     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002ef4     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002ef8     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002efc     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f00     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f04     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f08     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f0c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f10     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f14     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f18     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f1c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f20     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f24     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f28     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f2c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f30     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f34     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f38     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f3c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f40     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f44     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f48     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f4c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f50     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f54     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f58     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f5c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f60     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f64     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f68     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f6c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f70     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f74     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f78     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f7c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f80     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f84     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f88     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f8c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f90     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f94     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f98     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002f9c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fa0     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fa4     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fa8     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fac     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fb0     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fb4     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fb8     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fbc     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fc0     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fc4     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fc8     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fcc     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fd0     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fd4     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fd8     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fdc     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fe0     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fe4     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fe8     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002fec     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002ff0     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002ff4     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002ff8     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08002ffc     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08003000     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08003004     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08003008     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x0800300c     0x4  startup_stm32l476xx.o [1]
+  Initializer bytes  const    0x08003010     0x4  <for P2-1>
+  .rodata            const    0x08003014     0x0  zero_init3.o [5]
+  .rodata            const    0x08003014     0x0  copy_init3.o [5]
+                            - 0x08003014  0x2e8c
+
+"P2", part 1 of 3:                           0x4
+  P2-1                        0x20000000     0x4  <Init block>
+    .data            inited   0x20000000     0x4  system_stm32l4xx.o [1]
+                            - 0x20000004     0x4
+
+"P2", part 2 of 3:                         0x400
+  CSTACK                      0x20000008   0x400  <Block>
+    CSTACK           uninit   0x20000008   0x400  <Block tail>
+                            - 0x20000408   0x400
+
+"P2", part 3 of 3:                         0x228
+  .bss               zero     0x20000408   0x1dc  openserial.o [1]
+  .bss               zero     0x200005e4    0x14  02drv_openserial.o [1]
+  .bss               zero     0x200005f8    0x10  spi.o [1]
+  .bss               zero     0x20000608     0xc  radio.o [1]
+  .bss               zero     0x20000614     0xc  uart.o [1]
+  .bss               zero     0x20000620     0x8  bsp_timer.o [1]
+  .bss               zero     0x20000628     0x8  radiotimer.o [1]
+                            - 0x20000630   0x228
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x228:
+          0x20000408  0x228
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x4:
+          0x08003010    0x4
+    1 destination range, total size 0x4:
+          0x20000000    0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj: [1]
+    02drv_openserial.o         178                20
+    board.o                    350
+    bsp_timer.o                340                 8
+    debugpins.o                284
+    gpio.o                     112
+    leds.o                     108
+    nvic.o                     270
+    openhdlc.o                  32      512
+    openserial.o             1 940               476
+    radio.o                    284                12
+    radiotimer.o               268                 8
+    rcc.o                      304
+    spi.o                      894                16
+    startup_stm32l476xx.o      708
+    stm32l4xx_it.o             360
+    stm32l4xx_ll_exti.o        538
+    stm32l4xx_ll_gpio.o        418
+    stm32l4xx_ll_rcc.o       1 172
+    stm32l4xx_ll_spi.o         132
+    stm32l4xx_ll_tim.o       1 288
+    stm32l4xx_ll_usart.o       292
+    stm32l4xx_ll_utils.o        68
+    system_stm32l4xx.o         108       76        4
+    uart.o                     856                12
+    ------------------------------------------------
+    Total:                  11 304      588      556
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                       4
+    low_level_init.o             4
+    ------------------------------------------------
+    Total:                       8
+
+m7M_tls.a: [4]
+    fpinit_M.o                  34
+    ------------------------------------------------
+    Total:                      34
+
+rt7M_tl.a: [5]
+    ABImemset.o                102
+    cexit.o                     10
+    cmain.o                     26
+    copy_init3.o                44
+    cstartup_M.o                12
+    data_init.o                 40
+    zero_init3.o                64
+    ------------------------------------------------
+    Total:                     298
+
+shb_l.a: [6]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Gaps                        18        2
+    Linker created                       36    1 024
+----------------------------------------------------
+    Grand Total:            11 682      626    1 580
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x08002e48          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08002e6c          --   Gb  - Linker created -
+?main                   0x08002e6d         Code  Gb  cmain.o [5]
+AHBPrescTable           0x08002eb0   0x10  Data  Gb  system_stm32l4xx.o [1]
+APBPrescTable           0x08002edc    0x8  Data  Gb  system_stm32l4xx.o [1]
+BusFault_Handler        0x08002c11    0x2  Code  Gb  stm32l4xx_it.o [1]
+CSTACK$$Base            0x20000008          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000408          --   Gb  - Linker created -
+DebugMon_Handler        0x08002c17    0x2  Code  Gb  stm32l4xx_it.o [1]
+EXTI15_10_IRQHandler    0x08002cd1   0x24  Code  Gb  stm32l4xx_it.o [1]
+GPIO_Configuration      0x08001a87   0x48  Code  Gb  gpio.o [1]
+HardFault_Handler       0x08002c0d    0x2  Code  Gb  stm32l4xx_it.o [1]
+LL_AHB2_GRP1_EnableClock
+                        0x08001051   0x1a  Code  Lc  board.o [1]
+LL_AHB2_GRP1_EnableClock
+                        0x080022a1   0x1a  Code  Lc  debugpins.o [1]
+LL_AHB2_GRP1_EnableClock
+                        0x08001a6d   0x1a  Code  Lc  gpio.o [1]
+LL_AHB2_GRP1_EnableClock
+                        0x08000db1   0x1a  Code  Lc  leds.o [1]
+LL_AHB2_GRP1_EnableClock
+                        0x08001cf9   0x1e  Code  Lc  spi.o [1]
+LL_AHB2_GRP1_EnableClock
+                        0x080009a5   0x1a  Code  Lc  uart.o [1]
+LL_APB1_GRP1_EnableClock
+                        0x080011b1   0x1a  Code  Lc  bsp_timer.o [1]
+LL_APB1_GRP1_EnableClock
+                        0x08002195   0x1a  Code  Lc  radiotimer.o [1]
+LL_APB1_GRP1_EnableClock
+                        0x08001d17   0x1a  Code  Lc  spi.o [1]
+LL_APB2_GRP1_EnableClock
+                        0x0800106b   0x1a  Code  Lc  board.o [1]
+LL_APB2_GRP1_EnableClock
+                        0x080009bf   0x1a  Code  Lc  uart.o [1]
+LL_EXTI_ClearFlag_0_31  0x08001085    0x6  Code  Lc  board.o [1]
+LL_EXTI_ClearFlag_0_31  0x08002ba1    0x6  Code  Lc  stm32l4xx_it.o [1]
+LL_EXTI_DisableEvent_0_31
+                        0x08001b25    0xc  Code  Lc  stm32l4xx_ll_exti.o [1]
+LL_EXTI_DisableEvent_32_63
+                        0x08001b31    0xc  Code  Lc  stm32l4xx_ll_exti.o [1]
+LL_EXTI_DisableFallingTrig_0_31
+                        0x08001b85    0xc  Code  Lc  stm32l4xx_ll_exti.o [1]
+LL_EXTI_DisableFallingTrig_32_63
+                        0x08001b91    0xc  Code  Lc  stm32l4xx_ll_exti.o [1]
+LL_EXTI_DisableIT_0_31  0x08001af5    0xc  Code  Lc  stm32l4xx_ll_exti.o [1]
+LL_EXTI_DisableIT_32_63
+                        0x08001b01    0xc  Code  Lc  stm32l4xx_ll_exti.o [1]
+LL_EXTI_DisableRisingTrig_0_31
+                        0x08001b55    0xc  Code  Lc  stm32l4xx_ll_exti.o [1]
+LL_EXTI_DisableRisingTrig_32_63
+                        0x08001b61    0xc  Code  Lc  stm32l4xx_ll_exti.o [1]
+LL_EXTI_EnableEvent_0_31
+                        0x08001b0d    0xc  Code  Lc  stm32l4xx_ll_exti.o [1]
+LL_EXTI_EnableEvent_32_63
+                        0x08001b19    0xc  Code  Lc  stm32l4xx_ll_exti.o [1]
+LL_EXTI_EnableFallingTrig_0_31
+                        0x08001b6d    0xc  Code  Lc  stm32l4xx_ll_exti.o [1]
+LL_EXTI_EnableFallingTrig_32_63
+                        0x08001b79    0xc  Code  Lc  stm32l4xx_ll_exti.o [1]
+LL_EXTI_EnableIT_0_31   0x08001add    0xc  Code  Lc  stm32l4xx_ll_exti.o [1]
+LL_EXTI_EnableIT_32_63  0x08001ae9    0xc  Code  Lc  stm32l4xx_ll_exti.o [1]
+LL_EXTI_EnableRisingTrig_0_31
+                        0x08001b3d    0xc  Code  Lc  stm32l4xx_ll_exti.o [1]
+LL_EXTI_EnableRisingTrig_32_63
+                        0x08001b49    0xc  Code  Lc  stm32l4xx_ll_exti.o [1]
+LL_EXTI_Init            0x08001bbd  0x13a  Code  Gb  stm32l4xx_ll_exti.o [1]
+LL_EXTI_IsActiveFlag_0_31
+                        0x08002b8d   0x14  Code  Lc  stm32l4xx_it.o [1]
+LL_FLASH_SetLatency     0x080019e5   0x10  Code  Lc  rcc.o [1]
+LL_GPIO_Init            0x0800140b   0x9c  Code  Gb  stm32l4xx_ll_gpio.o [1]
+LL_GPIO_ResetOutputPin  0x0800108f    0x4  Code  Lc  board.o [1]
+LL_GPIO_ResetOutputPin  0x080022bf    0x4  Code  Lc  debugpins.o [1]
+LL_GPIO_ResetOutputPin  0x08001e0b    0x4  Code  Lc  spi.o [1]
+LL_GPIO_SetAFPin_0_7    0x080013a7   0x30  Code  Lc  stm32l4xx_ll_gpio.o [1]
+LL_GPIO_SetAFPin_8_15   0x08001dd3   0x34  Code  Lc  spi.o [1]
+LL_GPIO_SetAFPin_8_15   0x080013d7   0x34  Code  Lc  stm32l4xx_ll_gpio.o [1]
+LL_GPIO_SetAFPin_8_15   0x08000a7b   0x34  Code  Lc  uart.o [1]
+LL_GPIO_SetOutputPin    0x0800108b    0x4  Code  Lc  board.o [1]
+LL_GPIO_SetOutputPin    0x080022bb    0x4  Code  Lc  debugpins.o [1]
+LL_GPIO_SetOutputPin    0x08001e07    0x4  Code  Lc  spi.o [1]
+LL_GPIO_SetPinMode      0x08001d31   0x30  Code  Lc  spi.o [1]
+LL_GPIO_SetPinMode      0x08001305   0x30  Code  Lc  stm32l4xx_ll_gpio.o [1]
+LL_GPIO_SetPinMode      0x080009d9   0x30  Code  Lc  uart.o [1]
+LL_GPIO_SetPinOutputType
+                        0x08001d61   0x12  Code  Lc  spi.o [1]
+LL_GPIO_SetPinOutputType
+                        0x08001335   0x12  Code  Lc  stm32l4xx_ll_gpio.o [1]
+LL_GPIO_SetPinOutputType
+                        0x08000a09   0x12  Code  Lc  uart.o [1]
+LL_GPIO_SetPinPull      0x08001da3   0x30  Code  Lc  spi.o [1]
+LL_GPIO_SetPinPull      0x08001377   0x30  Code  Lc  stm32l4xx_ll_gpio.o [1]
+LL_GPIO_SetPinPull      0x08000a4b   0x30  Code  Lc  uart.o [1]
+LL_GPIO_SetPinSpeed     0x08001d73   0x30  Code  Lc  spi.o [1]
+LL_GPIO_SetPinSpeed     0x08001347   0x30  Code  Lc  stm32l4xx_ll_gpio.o [1]
+LL_GPIO_SetPinSpeed     0x08000a1b   0x30  Code  Lc  uart.o [1]
+LL_GPIO_TogglePin       0x08000dcb    0x8  Code  Lc  leds.o [1]
+LL_Init1msTick          0x080028e3   0x10  Code  Gb  stm32l4xx_ll_utils.o [1]
+LL_InitTick             0x080028c5   0x1e  Code  Lc  stm32l4xx_ll_utils.o [1]
+LL_LPTIM_ClearFLAG_ARRM
+                        0x08002bb9    0xa  Code  Lc  stm32l4xx_it.o [1]
+LL_LPTIM_ClearFLAG_CMPM
+                        0x08002ba7    0xa  Code  Lc  stm32l4xx_it.o [1]
+LL_LPTIM_GetCounter     0x080021af    0x6  Code  Lc  radiotimer.o [1]
+LL_LPTIM_IsActiveFlag_ARRM
+                        0x08002bc3    0xa  Code  Lc  stm32l4xx_it.o [1]
+LL_LPTIM_IsActiveFlag_CMPM
+                        0x08002bb1    0x8  Code  Lc  stm32l4xx_it.o [1]
+LL_PWR_EnableBkUpAccess
+                        0x080021b5    0xe  Code  Lc  radiotimer.o [1]
+LL_PWR_IsEnabledBkUpAccess
+                        0x080021c3    0xc  Code  Lc  radiotimer.o [1]
+LL_RCC_GetAHBPrescaler  0x080014f7    0xc  Code  Lc  stm32l4xx_ll_rcc.o [1]
+LL_RCC_GetAPB1Prescaler
+                        0x08001503    0xc  Code  Lc  stm32l4xx_ll_rcc.o [1]
+LL_RCC_GetAPB2Prescaler
+                        0x0800150f    0xc  Code  Lc  stm32l4xx_ll_rcc.o [1]
+LL_RCC_GetSysClkSource  0x08001967    0xa  Code  Lc  rcc.o [1]
+LL_RCC_GetSysClkSource  0x080014eb    0xc  Code  Lc  stm32l4xx_ll_rcc.o [1]
+LL_RCC_GetUARTClockFreq
+                        0x0800166b   0xb6  Code  Gb  stm32l4xx_ll_rcc.o [1]
+LL_RCC_GetUARTClockSource
+                        0x08001529    0xe  Code  Lc  stm32l4xx_ll_rcc.o [1]
+LL_RCC_GetUSARTClockFreq
+                        0x08001567  0x104  Code  Gb  stm32l4xx_ll_rcc.o [1]
+LL_RCC_GetUSARTClockSource
+                        0x0800151b    0xe  Code  Lc  stm32l4xx_ll_rcc.o [1]
+LL_RCC_HSI_IsReady      0x080014a9    0xe  Code  Lc  stm32l4xx_ll_rcc.o [1]
+LL_RCC_LSE_Enable       0x080021cf    0xe  Code  Lc  radiotimer.o [1]
+LL_RCC_LSE_IsReady      0x080021dd    0xc  Code  Lc  radiotimer.o [1]
+LL_RCC_LSE_IsReady      0x080014b7    0xe  Code  Lc  stm32l4xx_ll_rcc.o [1]
+LL_RCC_MSI_Enable       0x0800193d    0xe  Code  Lc  rcc.o [1]
+LL_RCC_MSI_GetRange     0x080014d3    0xc  Code  Lc  stm32l4xx_ll_rcc.o [1]
+LL_RCC_MSI_GetRangeAfterStandby
+                        0x080014df    0xc  Code  Lc  stm32l4xx_ll_rcc.o [1]
+LL_RCC_MSI_IsEnabledRangeSelect
+                        0x080014c5    0xe  Code  Lc  stm32l4xx_ll_rcc.o [1]
+LL_RCC_MSI_IsReady      0x0800194b    0xc  Code  Lc  rcc.o [1]
+LL_RCC_PLL_ConfigDomain_SYS
+                        0x080019bb   0x1c  Code  Lc  rcc.o [1]
+LL_RCC_PLL_Enable       0x080019a1    0xe  Code  Lc  rcc.o [1]
+LL_RCC_PLL_EnableDomain_SYS
+                        0x080019d7    0xe  Code  Lc  rcc.o [1]
+LL_RCC_PLL_GetDivider   0x0800155b    0xc  Code  Lc  stm32l4xx_ll_rcc.o [1]
+LL_RCC_PLL_GetMainSource
+                        0x08001537    0xc  Code  Lc  stm32l4xx_ll_rcc.o [1]
+LL_RCC_PLL_GetN         0x08001543    0xc  Code  Lc  stm32l4xx_ll_rcc.o [1]
+LL_RCC_PLL_GetR         0x0800154f    0xc  Code  Lc  stm32l4xx_ll_rcc.o [1]
+LL_RCC_PLL_IsReady      0x080019af    0xc  Code  Lc  rcc.o [1]
+LL_RCC_SetAHBPrescaler  0x08001971   0x10  Code  Lc  rcc.o [1]
+LL_RCC_SetAPB1Prescaler
+                        0x08001981   0x10  Code  Lc  rcc.o [1]
+LL_RCC_SetAPB2Prescaler
+                        0x08001991   0x10  Code  Lc  rcc.o [1]
+LL_RCC_SetLPTIMClockSource
+                        0x080021e9   0x14  Code  Lc  radiotimer.o [1]
+LL_RCC_SetSysClkSource  0x08001957   0x10  Code  Lc  rcc.o [1]
+LL_RCC_SetUSARTClockSource
+                        0x08000aaf   0x12  Code  Lc  uart.o [1]
+LL_SPI_Enable           0x08001e0f    0xa  Code  Lc  spi.o [1]
+LL_SPI_Init             0x0800291b   0x66  Code  Gb  stm32l4xx_ll_spi.o [1]
+LL_SPI_IsActiveFlag_RXNE
+                        0x08001e25    0x8  Code  Lc  spi.o [1]
+LL_SPI_IsActiveFlag_RXNE
+                        0x08002bcd    0x8  Code  Lc  stm32l4xx_it.o [1]
+LL_SPI_IsEnabled        0x08002909    0xa  Code  Lc  stm32l4xx_ll_spi.o [1]
+LL_SPI_ReceiveData8     0x08001e2d    0x6  Code  Lc  spi.o [1]
+LL_SPI_SetCRCPolynomial
+                        0x08002913    0x8  Code  Lc  stm32l4xx_ll_spi.o [1]
+LL_SPI_SetRxFIFOThreshold
+                        0x08001e19    0xc  Code  Lc  spi.o [1]
+LL_SPI_TransmitData8    0x08001e33    0x4  Code  Lc  spi.o [1]
+LL_SYSCFG_SetEXTISource
+                        0x08001093   0x2a  Code  Lc  board.o [1]
+LL_SetSystemCoreClock   0x080028f3    0x6  Code  Gb  stm32l4xx_ll_utils.o [1]
+LL_TIM_ClearFlag_CC1    0x080011dd    0x8  Code  Lc  bsp_timer.o [1]
+LL_TIM_ClearFlag_CC1    0x08002be5    0x8  Code  Lc  stm32l4xx_it.o [1]
+LL_TIM_ClearFlag_UPDATE
+                        0x08002bd5    0x8  Code  Lc  stm32l4xx_it.o [1]
+LL_TIM_EnableCounter    0x080011cb    0xa  Code  Lc  bsp_timer.o [1]
+LL_TIM_EnableIT_CC1     0x080011e5    0xa  Code  Lc  bsp_timer.o [1]
+LL_TIM_GenerateEvent_CC1
+                        0x080011ef    0xa  Code  Lc  bsp_timer.o [1]
+LL_TIM_GenerateEvent_UPDATE
+                        0x080023e1    0xa  Code  Lc  stm32l4xx_ll_tim.o [1]
+LL_TIM_GetCounter       0x080011d5    0x4  Code  Lc  bsp_timer.o [1]
+LL_TIM_Init             0x080023eb   0xe0  Code  Gb  stm32l4xx_ll_tim.o [1]
+LL_TIM_IsActiveFlag_CC1
+                        0x08002bed    0xa  Code  Lc  stm32l4xx_it.o [1]
+LL_TIM_IsActiveFlag_UPDATE
+                        0x08002bdd    0x8  Code  Lc  stm32l4xx_it.o [1]
+LL_TIM_OC_Init          0x080024cb   0x7c  Code  Gb  stm32l4xx_ll_tim.o [1]
+LL_TIM_OC_SetCompareCH1
+                        0x080011d9    0x4  Code  Lc  bsp_timer.o [1]
+LL_TIM_OC_SetCompareCH1
+                        0x080023c9    0x4  Code  Lc  stm32l4xx_ll_tim.o [1]
+LL_TIM_OC_SetCompareCH2
+                        0x080023cd    0x4  Code  Lc  stm32l4xx_ll_tim.o [1]
+LL_TIM_OC_SetCompareCH3
+                        0x080023d1    0x4  Code  Lc  stm32l4xx_ll_tim.o [1]
+LL_TIM_OC_SetCompareCH4
+                        0x080023d5    0x4  Code  Lc  stm32l4xx_ll_tim.o [1]
+LL_TIM_OC_SetCompareCH5
+                        0x080023d9    0x4  Code  Lc  stm32l4xx_ll_tim.o [1]
+LL_TIM_OC_SetCompareCH6
+                        0x080023dd    0x4  Code  Lc  stm32l4xx_ll_tim.o [1]
+LL_TIM_SetAutoReload    0x080023c1    0x4  Code  Lc  stm32l4xx_ll_tim.o [1]
+LL_TIM_SetPrescaler     0x080023bd    0x4  Code  Lc  stm32l4xx_ll_tim.o [1]
+LL_TIM_SetRepetitionCounter
+                        0x080023c5    0x4  Code  Lc  stm32l4xx_ll_tim.o [1]
+LL_USART_DisableIT_RXNE
+                        0x08000b07    0xa  Code  Lc  uart.o [1]
+LL_USART_DisableIT_TXE  0x08000b11    0xa  Code  Lc  uart.o [1]
+LL_USART_Enable         0x08000ac1    0xa  Code  Lc  uart.o [1]
+LL_USART_EnableIT_RXNE  0x08000af3    0xa  Code  Lc  uart.o [1]
+LL_USART_EnableIT_TXE   0x08000afd    0xa  Code  Lc  uart.o [1]
+LL_USART_Init           0x08000e79   0xac  Code  Gb  stm32l4xx_ll_usart.o [1]
+LL_USART_IsActiveFlag_REACK
+                        0x08000ae9    0xa  Code  Lc  uart.o [1]
+LL_USART_IsActiveFlag_RXNE
+                        0x08002bf7    0xa  Code  Lc  stm32l4xx_it.o [1]
+LL_USART_IsActiveFlag_RXNE
+                        0x08000acb    0xa  Code  Lc  uart.o [1]
+LL_USART_IsActiveFlag_TEACK
+                        0x08000adf    0xa  Code  Lc  uart.o [1]
+LL_USART_IsActiveFlag_TXE
+                        0x08002c01    0xa  Code  Lc  stm32l4xx_it.o [1]
+LL_USART_IsActiveFlag_TXE
+                        0x08000ad5    0xa  Code  Lc  uart.o [1]
+LL_USART_IsEnabled      0x08000e1d    0x8  Code  Lc  stm32l4xx_ll_usart.o [1]
+LL_USART_ReceiveData8   0x08000b1b    0x6  Code  Lc  uart.o [1]
+LL_USART_SetBaudRate    0x08000e3d   0x3c  Code  Lc  stm32l4xx_ll_usart.o [1]
+LL_USART_SetHWFlowCtrl  0x08000e31    0xc  Code  Lc  stm32l4xx_ll_usart.o [1]
+LL_USART_SetStopBitsLength
+                        0x08000e25    0xc  Code  Lc  stm32l4xx_ll_usart.o [1]
+LL_USART_TransmitData8  0x08000b21    0x6  Code  Lc  uart.o [1]
+LPTIM1_IRQHandler       0x08002c55   0x2c  Code  Gb  stm32l4xx_it.o [1]
+MSIRangeTable           0x08002da0   0x30  Data  Gb  system_stm32l4xx.o [1]
+MemManage_Handler       0x08002c0f    0x2  Code  Gb  stm32l4xx_it.o [1]
+NMI_Handler             0x08002c0b    0x2  Code  Gb  stm32l4xx_it.o [1]
+NVIC_Configuration      0x08001041    0xe  Code  Gb  nvic.o [1]
+NVIC_EnableIRQ          0x08000f5f   0x14  Code  Lc  nvic.o [1]
+NVIC_EncodePriority     0x08000fad   0x3e  Code  Lc  nvic.o [1]
+NVIC_SetPriority        0x08000f73   0x26  Code  Lc  nvic.o [1]
+NVIC_SetPriorityGrouping
+                        0x08000f41   0x1e  Code  Lc  nvic.o [1]
+NVIC_bsptimer           0x08001009   0x1c  Code  Gb  nvic.o [1]
+NVIC_init               0x08000feb    0x2  Code  Gb  nvic.o [1]
+NVIC_radio              0x08001025   0x1c  Code  Gb  nvic.o [1]
+NVIC_uart               0x08000fed   0x1c  Code  Gb  nvic.o [1]
+OC1Config               0x08002547   0xa4  Code  Lc  stm32l4xx_ll_tim.o [1]
+OC2Config               0x080025eb   0xa2  Code  Lc  stm32l4xx_ll_tim.o [1]
+OC3Config               0x0800268d   0xa2  Code  Lc  stm32l4xx_ll_tim.o [1]
+OC4Config               0x0800272f   0x84  Code  Lc  stm32l4xx_ll_tim.o [1]
+OC5Config               0x080027b3   0x74  Code  Lc  stm32l4xx_ll_tim.o [1]
+OC6Config               0x08002827   0x74  Code  Lc  stm32l4xx_ll_tim.o [1]
+PendSV_Handler          0x08002c19    0x2  Code  Gb  stm32l4xx_it.o [1]
+RCC_Configuration       0x080019f5   0x5e  Code  Gb  rcc.o [1]
+RCC_GetHCLKClockFreq    0x080017dd   0x18  Code  Gb  stm32l4xx_ll_rcc.o [1]
+RCC_GetPCLK1ClockFreq   0x080017f5   0x16  Code  Gb  stm32l4xx_ll_rcc.o [1]
+RCC_GetPCLK2ClockFreq   0x0800180b   0x16  Code  Gb  stm32l4xx_ll_rcc.o [1]
+RCC_GetSystemClockFreq  0x08001721   0xbc  Code  Gb  stm32l4xx_ll_rcc.o [1]
+RCC_PLL_GetFreqDomain_SYS
+                        0x08001821   0xd6  Code  Gb  stm32l4xx_ll_rcc.o [1]
+Region$$Table$$Base     0x08002e48          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08002e6c          --   Gb  - Linker created -
+SPI2_IRQHandler         0x08002c81   0x12  Code  Gb  stm32l4xx_it.o [1]
+SVC_Handler             0x08002c15    0x2  Code  Gb  stm32l4xx_it.o [1]
+SysTick_Handler         0x08002c1b    0x2  Code  Gb  stm32l4xx_it.o [1]
+SystemCoreClock         0x20000000    0x4  Data  Gb  system_stm32l4xx.o [1]
+SystemInit              0x08002cf5   0x4e  Code  Gb  system_stm32l4xx.o [1]
+TIM1_UP_TIM16_IRQHandler
+                        0x08002c1d   0x14  Code  Gb  stm32l4xx_it.o [1]
+TIM2_IRQHandler         0x08002c31   0x24  Code  Gb  stm32l4xx_it.o [1]
+USART1_IRQHandler       0x08002c93   0x28  Code  Gb  stm32l4xx_it.o [1]
+UsageFault_Handler      0x08002c13    0x2  Code  Gb  stm32l4xx_it.o [1]
+__aeabi_memset          0x0800091d         Code  Gb  ABImemset.o [5]
+__cmain                 0x08002e6d         Code  Gb  cmain.o [5]
+__exit                  0x08002e9d   0x14  Code  Gb  exit.o [6]
+__iar_Memset            0x0800091d         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x08000925         Code  Gb  ABImemset.o [5]
+__iar_copy_init3        0x08002dd1   0x2c  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x08002dfd   0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x08002e25         Code  Gb  fpinit_M.o [4]
+__iar_program_start     0x08002ed1         Code  Gb  cstartup_M.o [5]
+__iar_zero_init3        0x08002d61   0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08002e87    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32l476xx.o [1]
+_call_main              0x08002e79         Code  Gb  cmain.o [5]
+_exit                   0x08002e91         Code  Gb  cexit.o [5]
+_main                   0x08002e83         Code  Gb  cmain.o [5]
+app_vars                0x200005e4   0x14  Data  Gb  02drv_openserial.o [1]
+board_init              0x080010c5   0xce  Code  Gb  board.o [1]
+board_sleep             0x080011ad    0x2  Code  Gb  board.o [1]
+bsp_timer_init          0x080011f9   0x8e  Code  Gb  bsp_timer.o [1]
+bsp_timer_isr           0x080012ed    0xc  Code  Gb  bsp_timer.o [1]
+bsp_timer_scheduleIn    0x08001295   0x58  Code  Gb  bsp_timer.o [1]
+bsp_timer_set_callback  0x08001287    0xe  Code  Gb  bsp_timer.o [1]
+bsp_timer_vars          0x20000620    0x8  Data  Gb  bsp_timer.o [1]
+cb_compare              0x08000d49   0x16  Code  Gb  02drv_openserial.o [1]
+crcIteration            0x08000985   0x20  Code  Gb  openhdlc.o [1]
+debugPrint_asn          0x08000d97    0x4  Code  Gb  02drv_openserial.o [1]
+debugPrint_backoff      0x08000da3    0x4  Code  Gb  02drv_openserial.o [1]
+debugPrint_id           0x08000d8b    0x4  Code  Gb  02drv_openserial.o [1]
+debugPrint_isSync       0x08000d87    0x4  Code  Gb  02drv_openserial.o [1]
+debugPrint_kaPeriod     0x08000d8f    0x4  Code  Gb  02drv_openserial.o [1]
+debugPrint_macStats     0x08000d9b    0x4  Code  Gb  02drv_openserial.o [1]
+debugPrint_myDAGrank    0x08000d93    0x4  Code  Gb  02drv_openserial.o [1]
+debugPrint_neighbors    0x08000dab    0x4  Code  Gb  02drv_openserial.o [1]
+debugPrint_outBufferIndexes
+                        0x0800064b   0x30  Code  Gb  openserial.o [1]
+debugPrint_queue        0x08000da7    0x4  Code  Gb  02drv_openserial.o [1]
+debugPrint_schedule     0x08000d9f    0x4  Code  Gb  02drv_openserial.o [1]
+debugpins_frame_clr     0x0800235b    0xc  Code  Gb  debugpins.o [1]
+debugpins_fsm_clr       0x08002375    0xe  Code  Gb  debugpins.o [1]
+debugpins_init          0x080022c3   0x98  Code  Gb  debugpins.o [1]
+debugpins_isr_clr       0x08002391    0xc  Code  Gb  debugpins.o [1]
+debugpins_isr_set       0x0800239d    0xc  Code  Gb  debugpins.o [1]
+debugpins_radio_clr     0x080023a9    0xc  Code  Gb  debugpins.o [1]
+debugpins_slot_clr      0x08002367    0xe  Code  Gb  debugpins.o [1]
+debugpins_task_clr      0x08002383    0xe  Code  Gb  debugpins.o [1]
+exit                    0x08002e8b    0x4  Code  Gb  exit.o [3]
+fcstab                  0x0800298c  0x200  Data  Lc  openhdlc.o [1]
+idmanager_getMyID       0x08000d5f    0x6  Code  Gb  02drv_openserial.o [1]
+idmanager_triggerAboutRoot
+                        0x08000d83    0x2  Code  Gb  02drv_openserial.o [1]
+ieee154e_getAsn         0x08000d6d   0x16  Code  Gb  02drv_openserial.o [1]
+inputHdlcClose          0x080007a3   0x20  Code  Gb  openserial.o [1]
+inputHdlcOpen           0x08000749   0x10  Code  Gb  openserial.o [1]
+inputHdlcWrite          0x08000759   0x4a  Code  Gb  openserial.o [1]
+isr_openserial_rx       0x08000839   0xb8  Code  Gb  openserial.o [1]
+isr_openserial_tx       0x080007c5   0x74  Code  Gb  openserial.o [1]
+leds_debug_toggle       0x08000e07    0xe  Code  Gb  leds.o [1]
+leds_error_toggle       0x08000dfb    0xc  Code  Gb  leds.o [1]
+leds_init               0x08000dd3   0x28  Code  Gb  leds.o [1]
+main                    0x080010bd    0x8  Code  Gb  board.o [1]
+mote_main               0x08000cfd   0x4c  Code  Gb  02drv_openserial.o [1]
+openbridge_triggerData  0x08000d85    0x2  Code  Gb  02drv_openserial.o [1]
+openserial_echo         0x080008f1   0x24  Code  Gb  openserial.o [1]
+openserial_init         0x08000189   0xbe  Code  Gb  openserial.o [1]
+openserial_printData    0x08000339   0x8c  Code  Gb  openserial.o [1]
+openserial_printError   0x080003c5   0x28  Code  Gb  openserial.o [1]
+openserial_printInfoErrorCritical
+                        0x080002af   0x8a  Code  Gb  openserial.o [1]
+openserial_printStatus  0x08000247   0x68  Code  Gb  openserial.o [1]
+openserial_startInput   0x080003ed   0x76  Code  Gb  openserial.o [1]
+openserial_startOutput  0x08000463  0x116  Code  Gb  openserial.o [1]
+openserial_stop         0x08000579   0xd2  Code  Gb  openserial.o [1]
+openserial_vars         0x20000408  0x1dc  Data  Gb  openserial.o [1]
+outputHdlcClose         0x08000709   0x40  Code  Gb  openserial.o [1]
+outputHdlcOpen          0x0800067b   0x2a  Code  Gb  openserial.o [1]
+outputHdlcWrite         0x080006a5   0x64  Code  Gb  openserial.o [1]
+radio_init              0x08002079   0x58  Code  Gb  radio.o [1]
+radio_isr               0x08002137   0x58  Code  Gb  radio.o [1]
+radio_spiReadReg        0x08002103   0x34  Code  Gb  radio.o [1]
+radio_spiWriteReg       0x080020d1   0x32  Code  Gb  radio.o [1]
+radio_vars              0x20000608    0xc  Data  Gb  radio.o [1]
+radiotimer_compare_isr  0x0800226b   0x18  Code  Gb  radiotimer.o [1]
+radiotimer_getCapturedTime
+                        0x08002241    0xc  Code  Gb  radiotimer.o [1]
+radiotimer_init         0x080021fd   0x44  Code  Gb  radiotimer.o [1]
+radiotimer_overflow_isr
+                        0x0800224d   0x1e  Code  Gb  radiotimer.o [1]
+radiotimer_vars         0x20000628    0x8  Data  Gb  radiotimer.o [1]
+spi_init                0x08001e37  0x132  Code  Gb  spi.o [1]
+spi_isr                 0x08002075    0x2  Code  Gb  spi.o [1]
+spi_txrx                0x08001f69   0xf6  Code  Gb  spi.o [1]
+spi_vars                0x200005f8   0x10  Data  Gb  spi.o [1]
+uart_clearRxInterrupts  0x08000c6b    0x2  Code  Gb  uart.o [1]
+uart_clearTxInterrupts  0x08000c6d    0x2  Code  Gb  uart.o [1]
+uart_disableInterrupts  0x08000c5b   0x10  Code  Gb  uart.o [1]
+uart_enableInterrupts   0x08000c51    0xa  Code  Gb  uart.o [1]
+uart_init               0x08000b27  0x116  Code  Gb  uart.o [1]
+uart_readByte           0x08000cbf   0x10  Code  Gb  uart.o [1]
+uart_rx_isr             0x08000cdb    0xc  Code  Gb  uart.o [1]
+uart_setCallbacks       0x08000c3d   0x14  Code  Gb  uart.o [1]
+uart_tx_isr             0x08000ccf    0xc  Code  Gb  uart.o [1]
+uart_vars               0x20000614    0xc  Data  Gb  uart.o [1]
+uart_writeByte          0x08000c6f   0x50  Code  Gb  uart.o [1]
+
+
+[1] = E:\openwsn\openwsn-fw\projects\openmotestmL4\openserial\EWARM\STM32L476RG_NUCLEO\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  11 682 bytes of readonly  code memory
+     626 bytes of readonly  data memory
+   1 580 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

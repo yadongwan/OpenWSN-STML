@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3563743696</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_dbgmcu.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_dac.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_can.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_exti.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_crc.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_dma.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\configure\stm32f10x_conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\configure\stm32f10x_it.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\configure\stm32f10x_it.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\ewarm\cortexm3_macro.s</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\ewarm\stm32f10x_vector.c</file>
+      <file>$PROJ_DIR$\..\..\common\01bsp_spi\01bsp_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_bkp.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_iwdg.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_sdio.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\debugpins.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_pwr.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_tim.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\board_info.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\bsp_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\eui64.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\leds.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_wwdg.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\nvic.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_fsmc.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_nvic.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_systick.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_lib.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_rcc.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_usart.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\board.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\nvic.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\sctimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\rcc.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\chips\i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\chips\at86rf231\at86rf231.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\leds.h</file>
+      <file>$PROJ_DIR$\..\..\..\drivers\common\opentimers.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\bsp_timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\opendefs.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\radiotimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\drivers\common\opentimers.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\eui64.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\rcc.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\radio.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\debugpins.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\chips\at86rf231\radio.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\radiotimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\chips\spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\board.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_lib.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dbgmcu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_crc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_exti.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_i2c.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_wwdg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_timer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dma.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\debugpins.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_pwr.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rtc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_spi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\eui64.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\radiotimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\leds.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\nvic.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rcc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_fsmc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_flash.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_iwdg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_nvic.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_sdio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_systick.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_tim.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_flash.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_systick.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\radio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dbgmcu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_pwr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_lib.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_bkp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_crc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_vector.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cortexm3_macro.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_fsmc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rtc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_sdio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\01bsp_spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_iwdg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\opentimers.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_can.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_exti.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_adc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_i2c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_it.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_nvic.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_dma.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_tim.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_wwdg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\nvic.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\cortexm3_macro.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\radiotimer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\spi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\01bsp_spi.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\eui64.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\opentimers.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\leds.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\debugpins.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\radio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_map.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rcc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_can.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\01bsp_spi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_it.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_vector.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_adc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_bkp.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_tim.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_exti.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_fsmc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_usart.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_type.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_wwdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\toolchain_defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_lib.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_nvic.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_can.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_dma.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_dbgmcu.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_rcc.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_pwr.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_rtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_systick.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_bkp.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_dac.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_crc.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_sdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_iwdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\inc\stm32f10x_gpio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\01bsp_spi.out</file>
+      <file>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\rtc_timer.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_dbgmcu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125 139 6 157 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_dac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 157 125 169 139 177</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_can.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 157 169 6 125 163</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_exti.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 139 6 125 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_crc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 139 6 125 178</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125 139 157 6 169 165</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\configure\stm32f10x_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125 154 176 179 141 54 167 161 156 128 139 178 153 172 169 174 60 46 186 180 163 177 165 168 182 181 171 173 170 152 158 6 157 155 140 44 57 53 47 41 160 144 175 64 20 8 162 164 159 166 184 183</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\ewarm\cortexm3_macro.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\ewarm\stm32f10x_vector.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 157 8 180 176 163 178 177 167 165 153 168 154 182 172 181 161 171 169 173 179 170 174 152 156 158 6 125 160</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\01bsp_spi\01bsp_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 125 128 141 144 64 20 140 6 60 175 155 162 164 159 160 166 180 176 163 178 177 167 165 153 168 154 182 172 181 161 171 169 173 179 170 174 152 156 158 157 184 183</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_bkp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 125 157 6 169 176</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 157 169 6 125 180</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 185</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_iwdg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 125 6 157 181</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_sdio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 157 169 6 125 179</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\debugpins.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 6 157 125 54 180 176 163 178 177 167 165 153 168 154 182 172 181 161 171 169 173 179 170 174 152 156 158 160</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 157 169 6 125 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125 139 6 157 173</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_tim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 139 169 152 6 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\bsp_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 6 41 157 184 155 46 125 141 144 160 166 60 27 180 176 163 178 177 167 165 153 168 154 182 172 181 161 171 169 173 179 170 174 152 156 158 183 175 64 140 159 162 164 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 157 125 169 139 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\eui64.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141 164 140 144 162 51 184 183 175 155 64 166</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\leds.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161 167 156 157 176 154 179 139 178 153 172 169 174 155 180 163 177 165 168 182 181 171 173 170 152 158 141 44 6 125 140 144 175 64 160 162 164</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_wwdg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125 157 6 169 139 158</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125 6 157 139 168</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 157 153 161 182 139 6 125 169</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_fsmc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 157 125 169 139 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_nvic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125 139 6 157 161</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_systick.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 157 6 125 174</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_lib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 157 6 125 160 180 176 163 178 177 167 165 153 168 154 182 172 181 161 171 169 173 179 170 174 152 156 158</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 125 157 139 169</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 125 6 157 169 182</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 169 139 6 125 156</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 171 140 165 158 41 163 182 170 166 128 33 180 177 168 181 173 152 6 64 141 144 44 53 54 176 178 167 153 154 172 161 169 179 174 156 125 20 183 60 47 46 57 27 45 157 160 184 159 175 155 162 164 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\nvic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172 178 174 139 153 169 176 167 154 161 179 156 157 180 163 177 165 168 182 181 171 173 170 152 158 6 125 160</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\library\src\stm32f10x_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 157 169 6 125 172</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\radiotimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154 184 139 176 179 159 141 144 167 161 156 60 64 178 153 172 169 174 44 27 180 163 177 165 168 182 181 171 173 170 152 158 157 166 160 57 41 175 155 162 164 6 125 183 140 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\drivers\common\opentimers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 153 139 169 155 164 178 172 174 141 160 176 167 154 161 179 156 125 44 159 175 162 166 180 163 177 165 168 182 181 171 173 170 152 158 6 157 46 48 140 20 64 60 45 184 183</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 153 139 169 178 172 174 176 167 154 161 179 156 157 180 163 177 165 168 182 181 171 173 170 152 158 6 125 160</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\chips\at86rf231\radio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170 163 144 182 166 165 171 158 139 57 20 180 177 168 181 173 152 6 43 44 160 176 178 167 153 154 172 161 169 179 174 156 125 175 162 141 60 53 128 54 159 140 157 155 164 64 184 183</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 151 128 125 144 160 140 41 6 157 175 64 184 150 166 44 27 180 176 163 178 177 167 165 153 168 154 182 172 181 161 171 169 173 179 170 174 152 156 158 141 155 183 159 162 164 60 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\bsp\boards\openmotestm\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182 163 170 139 151 165 171 158 47 180 177 168 181 173 152 157 144 160 140 41 176 178 167 153 154 172 161 169 179 174 156 175 64 184 150 166 44 27 6 125 141 155 183 159 162 164 60 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
